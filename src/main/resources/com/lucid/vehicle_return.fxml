@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="998.0" prefWidth="1700.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lucid.controllers.VehicleReturnController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0a4d8c" height="53.0" layoutX="308.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1396.0">
+         <effect>
+            <DropShadow height="76.69" radius="23.9225" />
+         </effect>
+      </Rectangle>
+      <AnchorPane layoutX="-1.0" prefHeight="998.0" prefWidth="327.0" style="-fx-background-color: #0A4D8C;">
+         <children>
+            <Button fx:id="dashboard" alignment="BASELINE_LEFT" layoutX="1.0" layoutY="228.0" mnemonicParsing="false" onAction="#gotoDashboard" prefHeight="77.0" prefWidth="323.0" style="-fx-background-color: #0A4D8C;" text="SHOW ROOM" textFill="WHITE">
+               <font>
+                  <Font name="Gotham-Black" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="vehicle_return" alignment="BASELINE_LEFT" layoutX="1.0" layoutY="544.0" mnemonicParsing="false" onAction="#vehicle_return" prefHeight="77.0" prefWidth="325.0" style="-fx-background-color: #0A4D8C;" text="VEHICLE RETRUN" textFill="WHITE">
+               <font>
+                  <Font name="Gotham-Black" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="log_out" alignment="BASELINE_LEFT" contentDisplay="RIGHT" layoutX="1.0" layoutY="862.0" mnemonicParsing="false" onAction="#log_out" prefHeight="70.0" prefWidth="325.0" style="-fx-background-color: #0A4D8C;" text="LOG OUT" textFill="WHITE">
+               <font>
+                  <Font name="Gotham-Black" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="manage_vehicle" alignment="BASELINE_LEFT" layoutX="1.0" layoutY="386.0" mnemonicParsing="false" onAction="#manage_vehicle" prefHeight="77.0" prefWidth="325.0" style="-fx-background-color: #0A4D8C;" text="MANAGE VEHICLE" textFill="WHITE">
+               <font>
+                  <Font name="Gotham-Black" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="exit" alignment="BASELINE_LEFT" contentDisplay="RIGHT" layoutX="1.0" layoutY="934.0" mnemonicParsing="false" onAction="#exit" prefHeight="62.0" prefWidth="325.0" style="-fx-background-color: #0A4D8C;" text="EXIT" textFill="WHITE">
+               <font>
+                  <Font name="Gotham-Black" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="manage_employyes" alignment="BASELINE_LEFT" layoutX="1.0" layoutY="307.0" mnemonicParsing="false" onAction="#manage_employees" prefHeight="77.0" prefWidth="324.0" style="-fx-background-color: #0A4D8C;" text="MANAGE EMPLOYEES" textFill="WHITE">
+               <font>
+                  <Font name="Gotham-Black" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="new_rental" alignment="BASELINE_LEFT" layoutX="1.0" layoutY="465.0" mnemonicParsing="false" onAction="#newRental" prefHeight="77.0" prefWidth="324.0" style="-fx-background-color: #0A4D8C;" text="NEW RENTAL" textFill="WHITE">
+               <font>
+                  <Font name="Gotham-Black" size="24.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="182.0" fitWidth="182.0" layoutX="72.0" layoutY="9.0">
+               <image>
+                  <Image url="@images/user.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="uname" fill="WHITE" layoutX="87.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADMINISTRATOR">
+               <font>
+                  <Font name="Gotham-Black" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text fill="WHITE" layoutX="877.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VEHICLE RETURN">
+         <font>
+            <Font name="Gotham-Black" size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

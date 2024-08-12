@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1b3ed51-11f9-4438-8bb5-95f0025acf5f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/ManageEmployeesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/ManageVehicleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/NewRental.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/NewVehicleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/VehicleReturnController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/newEmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/models/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/models/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/models/SceneLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/models/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/models/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/NewRental.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/admin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/Aveo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/bmw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/brack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/corolla.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/hiAce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/log.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/new_rental.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/tucson.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/vehicle_return.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/vutz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/manage_employees.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/manage_vehicle.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/newEmployee.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/new_vehicle.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/pngegg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/vehicle_return.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2kKmb2xUjhxn4xdLFhqUcZcP3xW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ablic/OneDrive/Desktop/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ablic\IdeaProjects\Lucid\src\main\resources\com\lucid" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ablic\IdeaProjects\Lucid\src\main\resources\com\lucid" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18968.26" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18968.26" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1b3ed51-11f9-4438-8bb5-95f0025acf5f" name="Changes" comment="" />
+      <created>1723040711954</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723040711954</updated>
+      <workItem from="1723040713146" duration="2056000" />
+      <workItem from="1723044360654" duration="60000" />
+      <workItem from="1723044751208" duration="25000" />
+      <workItem from="1723108568230" duration="1479000" />
+      <workItem from="1723112704063" duration="8792000" />
+      <workItem from="1723154175942" duration="6031000" />
+      <workItem from="1723211130325" duration="18251000" />
+      <workItem from="1723289494289" duration="3880000" />
+      <workItem from="1723306500047" duration="18616000" />
+      <workItem from="1723388520869" duration="4907000" />
+      <workItem from="1723403890834" duration="10395000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
