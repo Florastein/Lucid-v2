@@ -133,6 +133,64 @@ public class ManageEmployeesController {
     }
 
     @FXML
+    private void removeEmployee(ActionEvent event) throws IOException {
+        Employee selectedEmployee = employeeTable.getSelectionModel().getSelectedItem();
+
+        if (selectedEmployee == null) {
+            Alert alert = new Alert(Alert.AlertType.WARNING);
+            alert.setTitle("No Selection");
+            alert.setHeaderText("No Employee Selected");
+            alert.setContentText("Please select an employee to delete.");
+            alert.showAndWait();
+            return;
+        }
+
+        Alert confirmAlert = new Alert(Alert.AlertType.CONFIRMATION);
+        confirmAlert.setTitle("Confirm Delete");
+        confirmAlert.setHeaderText("Delete Employee");
+        confirmAlert.setContentText("Are you sure you want to delete employee: " + selectedEmployee.getFirstName() + " " + selectedEmployee.getLastName() + "?");
+
+        if (confirmAlert.showAndWait().get() != ButtonType.OK) {
+            return;
+        }
+
+        try {
+            Connection connection = DBConnection.getInstance().getConnection();
+
+            String query = "DELETE FROM employee WHERE ID = ?";
+            PreparedStatement preparedStatement = connection.prepareStatement(query);
+            preparedStatement.setInt(1, selectedEmployee.getId());
+
+
+            int rowsAffected = preparedStatement.executeUpdate();
+
+            if (rowsAffected > 0) {
+                Alert successAlert = new Alert(Alert.AlertType.INFORMATION);
+                successAlert.setTitle("Success");
+                successAlert.setHeaderText("Employee Deleted");
+                successAlert.setContentText("Employee has been deleted successfully.");
+                successAlert.showAndWait();
+
+                loadEmployeeData();
+            } else {
+                Alert errorAlert = new Alert(Alert.AlertType.ERROR);
+                errorAlert.setTitle("Error");
+                errorAlert.setHeaderText("Delete Failed");
+                errorAlert.setContentText("Failed to delete the employee. Please try again.");
+                errorAlert.showAndWait();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            Alert errorAlert = new Alert(Alert.AlertType.ERROR);
+            errorAlert.setTitle("Database Error");
+            errorAlert.setHeaderText("Delete Failed");
+            errorAlert.setContentText("An error occurred while deleting the employee: " + e.getMessage());
+            errorAlert.showAndWait();
+        }
+    }
+
+
+    @FXML
     private void loadEmployeeData() {
         ObservableList<Employee> employees = FXCollections.observableArrayList();
 

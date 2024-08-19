@@ -142,7 +142,7 @@
             <Font name="Gotham-Black" size="24.0" />
          </font>
       </Button>
-      <TextField fx:id="idField" layoutX="380.0" layoutY="591.0" prefHeight="43.0" prefWidth="504.0" />
+      <TextField fx:id="idField" disable="true" editable="false" layoutX="380.0" layoutY="591.0" prefHeight="43.0" prefWidth="504.0" />
       <Text layoutX="423.0" layoutY="583.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EMPLOYEE ID">
          <font>
             <Font name="Ubuntu Medium" size="24.0" />

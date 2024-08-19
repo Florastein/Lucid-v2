@@ -98,7 +98,7 @@
                         <Font name="Ubuntu Medium" size="18.0" />
                      </font>
                   </Button>
-                  <Button layoutX="487.0" layoutY="107.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="197.0" style="-fx-background-color: #0A4D8C;" text="REMOVE EMPLOYEE" textFill="WHITE">
+                  <Button layoutX="487.0" layoutY="107.0" mnemonicParsing="false" onAction="#removeEmployee" prefHeight="43.0" prefWidth="197.0" style="-fx-background-color: #0A4D8C;" text="REMOVE EMPLOYEE" textFill="WHITE">
                      <font>
                         <Font name="Ubuntu Medium" size="18.0" />
                      </font>

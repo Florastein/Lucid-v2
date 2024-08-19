@@ -4,58 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1b3ed51-11f9-4438-8bb5-95f0025acf5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/ManageEmployeesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/ManageVehicleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/NewRental.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/NewVehicleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/VehicleReturnController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/newEmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/models/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/models/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/models/SceneLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/models/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lucid/models/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/NewRental.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/admin.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/Aveo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/bmw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/brack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/corolla.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/group.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/hiAce.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/log.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/new_rental.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/report.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/tucson.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/vehicle_return.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/images/vutz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/login.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/manage_employees.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/manage_vehicle.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/newEmployee.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/new_vehicle.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/pngegg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/vehicle_return.fxml" afterDir="false" />
+    <list default="true" id="f1b3ed51-11f9-4438-8bb5-95f0025acf5f" name="Changes" comment="version2.0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/ManageEmployeesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/ManageEmployeesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/ManageVehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/ManageVehicleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lucid/models/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lucid/models/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lucid/manage_employees.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/manage_employees.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lucid/manage_vehicle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/manage_vehicle.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lucid/newEmployee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/newEmployee.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +35,9 @@
         <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -151,14 +110,33 @@
       <workItem from="1723289494289" duration="3880000" />
       <workItem from="1723306500047" duration="18616000" />
       <workItem from="1723388520869" duration="4907000" />
-      <workItem from="1723403890834" duration="10395000" />
+      <workItem from="1723403890834" duration="24661000" />
+      <workItem from="1723643443646" duration="9234000" />
+      <workItem from="1723760980041" duration="5967000" />
+      <workItem from="1723831995858" duration="31347000" />
+      <workItem from="1724000005596" duration="837000" />
+      <workItem from="1724004034911" duration="6062000" />
+      <workItem from="1724015930673" duration="9210000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="GitHub.CommitStatus" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="version2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="version2.0" />
   </component>
 </project>
