@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -11,29 +15,29 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="998.0" prefWidth="1700.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lucid.controllers.VehicleReturnController">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0a4d8c" height="53.0" layoutX="308.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1396.0">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0a4d8c" height="58.0" layoutX="306.0" layoutY="-6.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1399.0">
          <effect>
-            <DropShadow height="76.69" radius="23.9225" />
+            <DropShadow height="82.55" radius="25.3875" />
          </effect>
       </Rectangle>
-      <AnchorPane layoutX="-1.0" prefHeight="998.0" prefWidth="327.0" style="-fx-background-color: #0A4D8C;">
+      <AnchorPane prefHeight="998.0" prefWidth="327.0" style="-fx-background-color: #0A4D8C;">
          <children>
-            <Button fx:id="dashboard" alignment="BASELINE_LEFT" layoutX="1.0" layoutY="228.0" mnemonicParsing="false" onAction="#gotoDashboard" prefHeight="77.0" prefWidth="323.0" style="-fx-background-color: #0A4D8C;" text="SHOW ROOM" textFill="WHITE">
+            <Button fx:id="dashboard" alignment="BASELINE_LEFT" layoutX="-1.0" layoutY="228.0" mnemonicParsing="false" onAction="#gotoDashboard" prefHeight="77.0" prefWidth="328.0" style="-fx-background-color: #0A4D8C;" text="SHOW ROOM" textFill="WHITE">
                <font>
                   <Font name="Gotham-Black" size="24.0" />
                </font>
             </Button>
-            <Button fx:id="vehicle_return" alignment="BASELINE_LEFT" layoutX="1.0" layoutY="544.0" mnemonicParsing="false" onAction="#vehicle_return" prefHeight="77.0" prefWidth="325.0" style="-fx-background-color: #0A4D8C;" text="VEHICLE RETRUN" textFill="WHITE">
+            <Button fx:id="vehicle_return" alignment="BASELINE_LEFT" layoutX="1.0" layoutY="544.0" mnemonicParsing="false" onAction="#vehicleReturn" prefHeight="77.0" prefWidth="326.0" style="-fx-background-color: #0A4D8C;" text="VEHICLE RETRUN" textFill="WHITE">
                <font>
                   <Font name="Gotham-Black" size="24.0" />
                </font>
             </Button>
-            <Button fx:id="log_out" alignment="BASELINE_LEFT" contentDisplay="RIGHT" layoutX="1.0" layoutY="862.0" mnemonicParsing="false" onAction="#log_out" prefHeight="70.0" prefWidth="325.0" style="-fx-background-color: #0A4D8C;" text="LOG OUT" textFill="WHITE">
+            <Button fx:id="log_out" alignment="BASELINE_LEFT" contentDisplay="RIGHT" layoutX="1.0" layoutY="862.0" mnemonicParsing="false" onAction="#logOut" prefHeight="70.0" prefWidth="326.0" style="-fx-background-color: #0A4D8C;" text="LOG OUT" textFill="WHITE">
                <font>
                   <Font name="Gotham-Black" size="24.0" />
                </font>
             </Button>
-            <Button fx:id="manage_vehicle" alignment="BASELINE_LEFT" layoutX="1.0" layoutY="386.0" mnemonicParsing="false" onAction="#manage_vehicle" prefHeight="77.0" prefWidth="325.0" style="-fx-background-color: #0A4D8C;" text="MANAGE VEHICLE" textFill="WHITE">
+            <Button fx:id="manage_vehicle" alignment="BASELINE_LEFT" layoutX="1.0" layoutY="386.0" mnemonicParsing="false" onAction="#manageVehicle" prefHeight="77.0" prefWidth="325.0" style="-fx-background-color: #0A4D8C;" text="MANAGE VEHICLE" textFill="WHITE">
                <font>
                   <Font name="Gotham-Black" size="24.0" />
                </font>
@@ -43,12 +47,12 @@
                   <Font name="Gotham-Black" size="24.0" />
                </font>
             </Button>
-            <Button fx:id="manage_employyes" alignment="BASELINE_LEFT" layoutX="1.0" layoutY="307.0" mnemonicParsing="false" onAction="#manage_employees" prefHeight="77.0" prefWidth="324.0" style="-fx-background-color: #0A4D8C;" text="MANAGE EMPLOYEES" textFill="WHITE">
+            <Button fx:id="manage_employyes" alignment="BASELINE_LEFT" layoutX="1.0" layoutY="307.0" mnemonicParsing="false" onAction="#manageEmployees" prefHeight="77.0" prefWidth="326.0" style="-fx-background-color: #0A4D8C;" text="MANAGE EMPLOYEES" textFill="WHITE">
                <font>
                   <Font name="Gotham-Black" size="24.0" />
                </font>
             </Button>
-            <Button fx:id="new_rental" alignment="BASELINE_LEFT" layoutX="1.0" layoutY="465.0" mnemonicParsing="false" onAction="#newRental" prefHeight="77.0" prefWidth="324.0" style="-fx-background-color: #0A4D8C;" text="NEW RENTAL" textFill="WHITE">
+            <Button fx:id="new_rental" alignment="BASELINE_LEFT" layoutX="1.0" layoutY="465.0" mnemonicParsing="false" onAction="#newRental" prefHeight="77.0" prefWidth="326.0" style="-fx-background-color: #0A4D8C;" text="NEW RENTAL" textFill="WHITE">
                <font>
                   <Font name="Gotham-Black" size="24.0" />
                </font>
@@ -58,17 +62,56 @@
                   <Image url="@images/user.png" />
                </image>
             </ImageView>
-            <Text fx:id="uname" fill="WHITE" layoutX="87.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADMINISTRATOR">
+            <Text fx:id="username" fill="WHITE" layoutX="87.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADMINISTRATOR">
                <font>
                   <Font name="Gotham-Black" size="18.0" />
                </font>
             </Text>
          </children>
       </AnchorPane>
-      <Text fill="WHITE" layoutX="877.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VEHICLE RETURN">
+      <Text fill="WHITE" layoutX="863.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VEHICLE RETURN">
          <font>
             <Font name="Gotham-Black" size="24.0" />
          </font>
       </Text>
+      <ScrollPane layoutX="326.0" layoutY="51.0" prefHeight="947.0" prefWidth="1373.0" style="-fx-background-color: #ffffff;">
+         <content>
+            <AnchorPane prefHeight="933.0" prefWidth="1372.0">
+               <children>
+                  <TableView fx:id="vehicleTable" layoutX="23.0" layoutY="109.0" prefHeight="758.0" prefWidth="1327.0">
+                     <columns>
+                        <TableColumn fx:id="idColumn" prefWidth="75.0" text="ID" />
+                        <TableColumn fx:id="licenseColumn" prefWidth="223.0" text="LICENSE PLATE #" />
+                        <TableColumn fx:id="modelColumn" prefWidth="267.33331298828125" text="VEHICLE NAME" />
+                        <TableColumn fx:id="cnameColumn" prefWidth="275.66668701171875" text="CUSTOMER NAME" />
+                        <TableColumn fx:id="rentalColumn" minWidth="1.66668701171875" prefWidth="259.6666259765625" text="RENTAL DATE" />
+                        <TableColumn fx:id="returnColumn" minWidth="0.0" prefWidth="226.3333740234375" text="RETURN DATE" />
+                     </columns>
+                  </TableView>
+                  <Button layoutX="370.0" layoutY="877.0" mnemonicParsing="false" onAction="#deleteSelectedItem" prefHeight="43.0" prefWidth="197.0" style="-fx-background-color: #0A4D8C;" text="RETURN VEHICLE" textFill="WHITE">
+                     <font>
+                        <Font name="Gotham-Black" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="canc" layoutX="775.0" layoutY="878.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="197.0" style="-fx-background-color: #0A4D8C;" text="CANCEL" textFill="WHITE">
+                     <font>
+                        <Font name="Gotham-Black" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <TextField fx:id="searchBox" layoutX="507.0" layoutY="79.0" prefHeight="58.0" prefWidth="919.0" promptText="SEARCH..." style="-fx-background-radius: 17px 0 0 17px; -fx-padding: 0 0 0 50px; -fx-border-color: #0a4d8c; -fx-border-radius: 17px 0 0 17px; -fx-border-width: 3px;">
+         <font>
+            <Font name="Ubuntu Medium" size="18.0" />
+         </font>
+      </TextField>
+      <Button layoutX="1426.0" layoutY="79.0" mnemonicParsing="false" onAction="#search" prefHeight="57.0" prefWidth="163.0" style="-fx-background-radius: 0 17px 17px 0; -fx-background-color: #0a4d8c;" text="SEARCH" textFill="WHITE">
+         <font>
+            <Font name="Ubuntu Medium" size="18.0" />
+         </font>
+      </Button>
+
    </children>
 </AnchorPane>

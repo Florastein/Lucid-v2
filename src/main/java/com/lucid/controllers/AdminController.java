@@ -177,7 +177,7 @@ public class AdminController {
         stage.getIcons().add(icon);
 
         stage.show();*/
-        loadScene(event, "/com/lucid/NewRental.fxml");
+        loadScene(event, "/com/lucid/vehicle_return.fxml");
     }
 
     @FXML

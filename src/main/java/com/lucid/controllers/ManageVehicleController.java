@@ -263,7 +263,7 @@
 //        stage.setScene(scene);
 //        stage.close();
 //    }
-//}
+//}*/
 
 package com.lucid.controllers;
 
@@ -315,6 +315,8 @@ public class ManageVehicleController {
     @FXML
     private TableColumn<Vehicle, Boolean> isAvailableColumn;
 
+
+
     private DBConnection connection;
 
     @FXML
@@ -325,6 +327,15 @@ public class ManageVehicleController {
     }
 
     private void setupTableColumns() {
+        /*idColumn.setCellValueFactory(new PropertyValueFactory<>("id"));
+        licenseColumn.setCellValueFactory(new PropertyValueFactory<>("vehicleLicense"));
+        brandColumn.setCellValueFactory(new PropertyValueFactory<>("brand"));
+        modelColumn.setCellValueFactory(new PropertyValueFactory<>("model"));
+        yearColumn.setCellValueFactory(new PropertyValueFactory<>("year"));
+        chasisColumn.setCellValueFactory(new PropertyValueFactory<>("chasis"));
+        colorColumn.setCellValueFactory(new PropertyValueFactory<>("color"));
+        isAvailableColumn.setCellValueFactory(new PropertyValueFactory<>("isAvailable"));*/
+
         idColumn.setCellValueFactory(new PropertyValueFactory<>("id"));
         licenseColumn.setCellValueFactory(new PropertyValueFactory<>("vehicleLicense"));
         brandColumn.setCellValueFactory(new PropertyValueFactory<>("brand"));
@@ -333,6 +344,8 @@ public class ManageVehicleController {
         chasisColumn.setCellValueFactory(new PropertyValueFactory<>("chasis"));
         colorColumn.setCellValueFactory(new PropertyValueFactory<>("color"));
         isAvailableColumn.setCellValueFactory(new PropertyValueFactory<>("isAvailable"));
+
+        loadVehicleData();
     }
 
     @FXML

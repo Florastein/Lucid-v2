@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1b3ed51-11f9-4438-8bb5-95f0025acf5f" name="Changes" comment="version2.0">
+    <list default="true" id="f1b3ed51-11f9-4438-8bb5-95f0025acf5f" name="Changes" comment="version3.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/ManageEmployeesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/ManageEmployeesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/AdminController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/ManageVehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/ManageVehicleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/VehicleReturnController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lucid/controllers/VehicleReturnController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lucid/models/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lucid/models/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lucid/manage_employees.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/manage_employees.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lucid/manage_vehicle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/manage_vehicle.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lucid/newEmployee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/newEmployee.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lucid/vehicle_return.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/lucid/vehicle_return.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,8 +115,17 @@
       <workItem from="1723831995858" duration="31347000" />
       <workItem from="1724000005596" duration="837000" />
       <workItem from="1724004034911" duration="6062000" />
-      <workItem from="1724015930673" duration="9210000" />
+      <workItem from="1724015930673" duration="13443000" />
     </task>
+    <task id="LOCAL-00001" summary="version3.0">
+      <option name="closed" value="true" />
+      <created>1724028933729</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724028933729</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +145,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="version2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="version2.0" />
+    <MESSAGE value="version3.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="version3.0" />
   </component>
 </project>
