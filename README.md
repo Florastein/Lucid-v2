@@ -34,7 +34,7 @@ This project provides a Java-based solution for managing car rentals, built on a
 ## Project Structure
 
 ```
-Car-Rental-System/
+com/lucid/
 ├── .idea/                # IntelliJ project settings
 ├── .mvn/wrapper/         # Maven wrapper scripts
 ├── src/
